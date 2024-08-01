@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw
+}
+
+#content {
+    height: 50em;
+    width: 45em;
+}
+#title{
+    width: 15em;
+}
+#posts{
+    padding-top: 0px;
+}
