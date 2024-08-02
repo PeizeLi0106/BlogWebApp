@@ -1,9 +1,12 @@
-<div id="create">
-    <form action="/" method="post">
+<%- include("partials/header.ejs") %>
+<body>
+    <form action="/<%=postid%>" method="post">
         <label for="title">Title:</label><br>
         <input type="text" id="title" name="title"><br>
         <label for="content">Content:</label><br>
         <input type="text" id="content" name="content"><br><br>
-        <input type="submit" value="Create">
+        <button onclick="return confirm('Are you sure you want to edit this post?')" type="submit">Submit</button>
     </form>
-</div>
+</body>
+</html>
+
