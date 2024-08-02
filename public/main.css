@@ -3,9 +3,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100vw
-}
+    width: 100vw;
 
+}
+body{
+    background-color: beige;
+}
 #content {
     height: 50em;
     width: 45em;

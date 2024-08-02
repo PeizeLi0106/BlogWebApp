@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 app.get("/search", (req, res) => {
     let searchingTitle = req.query.q;
-    console.log(searchingTitle);
+    //console.log(searchingTitle);
     let notFound = true;
     for (var i = 0; i < posts.length; i++) {
         if (posts[i].title == searchingTitle) {
