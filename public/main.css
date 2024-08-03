@@ -4,7 +4,16 @@
     justify-content: space-around;
     align-items: center;
     width: 100vw;
+    gap: 2em;
 
+}
+.list-group{
+    width: 32em;
+}
+.list-group-item{
+    text-align: center;
+    font-size: 1.2em; 
+    font-weight: bold;
 }
 body{
     background-color: beige;
@@ -14,7 +23,7 @@ body{
     width: 45em;
 }
 #title{
-    width: 15em;
+    width: 17.5em;
 }
 #posts{
     padding-top: 0px;
